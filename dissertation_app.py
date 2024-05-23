@@ -196,6 +196,10 @@ elif selection == "Appendices":
     research presented in the dissertation.
     """)
 
+st.sidebar.write("""
+    This Streamlit app provides an interactive exploration of the dissertation 'The Unification of Fundamental Forces: Exploring Baird's Principle and the Theory of Everything.' 
+    Use the sidebar to navigate through the sections.
+""")
+
 if __name__ == '__main__':
     st.sidebar.success("Select a section above to view the content.")
-    st.sidebar.write("This Streamlit app provides an interactive exploration of the dissertation 'The Unification of Fundamental Forces: Exploring Baird's Principle
